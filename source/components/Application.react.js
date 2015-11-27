@@ -43,7 +43,7 @@ var Application = React.createClass({
 					<Stream onAddTweetToCollection={this.addTweetToCollection} />
 				</div>
 				<div className="col-md-8">
-					<Collection tweet={this.state.collectionTweets}
+					<Collection tweets={this.state.collectionTweets}
 						onRemoveTweetFromCollection={this.removeTweetFromCollection}
 						onRemoveAllTweetsFromCollection={this.removeAllTweetsFromCollection} />
 				</div>

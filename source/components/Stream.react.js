@@ -26,6 +26,9 @@ var Stream = React.createClass({
 
 	render: function() {
 		var tweet = this.state.tweet;
+		
+		console.log('Stream - render() - tweet:');
+		console.log(tweet);
 
 		if (tweet) {
 			return (

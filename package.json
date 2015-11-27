@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest"
   },
-   "jest": {
+  "jest": {
     "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
     "unmockedModulePathPatterns": [
       "<rootDir>/node_modules/react",
@@ -27,10 +27,12 @@
     "react-addons-test-utils": "^0.14.3",
     "reactify": "^1.1.1",
     "vinyl-source-stream": "^1.1.0"
-},
+  },
   "dependencies": {
     "babel-preset-react": "^6.1.18",
     "babelify": "^7.2.0",
+    "flux": "^2.1.1",
+    "object-assign": "^4.0.1",
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "snapkite-stream-client": "^1.0.3"
